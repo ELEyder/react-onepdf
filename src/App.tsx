@@ -8,7 +8,7 @@ import Home from './views/Home';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-onepdf">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
